@@ -1,0 +1,137 @@
+
+#text, #reference {
+    float: left; /* Обтекание справа */ 
+    width: 10%; /* Ширина текстового блока */ 
+   }
+   #reference {
+    text-align: right; /* Выравнивание по правому краю */ 
+   }
+
+
+.footer {
+	float: left;
+	background-color: #000907;
+  height: 60px;
+  font-size: 1.0em;
+  	padding-top: 20px;
+  margin-top: 20px;
+  color: #F50707;
+}
+
+.footer a {
+ 	text-decoration: none;
+ 	color: red;
+ }
+
+ a.footer:hover {
+ 	color: blue;
+ }
+
+.header {
+  background-color: black;
+  height: 110px;
+  font-size: 1.9em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 75px;
+  min-width: 900px;
+  color: #F445;
+} 
+
+.string {
+	color: white;
+}
+
+p {
+	 margin-left: 100px;
+  margin-right: 100px;
+}
+
+body {
+	-moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+
+  font-size: 1.2em;
+  background-color: black;
+  color: #9999;
+}
+
+#reference {
+	color: blue;
+}
+
+#text {
+	color: white;
+}
+
+
+
+.but {
+	
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 40px 100px 100px 0px;
+    -webkit-transition-duration: 1.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.but {
+
+    background-color: black; 
+    color: red; 
+    border: 2px solid #4CAF50;
+}
+
+.but:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a.button9 {
+	margin: 300px ;
+  position: relative;
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+a.button9:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button9:active {
+  top: 1px;
+}
+
+
+
+
+
+
+
+
+

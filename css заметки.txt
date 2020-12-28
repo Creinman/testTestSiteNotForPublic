@@ -1,0 +1,32 @@
+css-ñâîéñòâà
+
+margin âíåøíèé îòñòóï
+padding âíóòðåííèé îòñòóï    right bottom left right
+letter-spacing èíòåðâàë ìåæäó ñèìâîëàìè
+text-decoration ñòèëèçàöèÿ ññûëêè through underline overline none
+ul.menu li a: hover{color: #}      èçì öâåò êíîïêè ïðè íàâåäåíèè
+
+
+<style type="text/css"> 
+  button[name="run_script"] { 
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+    background: #ff9900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  button[name="run_script"]:hover { 
+    background: #ff6600;
+  } 
+</style>
+<button type="button" name="run_script">Çàïóñòèòü ñêðèïò</button>
+
+
+<h2>Поиск</h2>
+        <form method="post" action="#" id="search_form" >
+          <input type="search" name="search_field" placeholder="ваш запрос" />
+          <input type="submit" class="btn" value="найти" />
+        </form>
